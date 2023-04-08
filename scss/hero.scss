@@ -1,9 +1,13 @@
+
 #hero {
     background: $cream;
 
     .container {
         display: flex;
         align-items: center;
+        max-width: 1000px;
+        width: 90%;
+        margin: auto;
         padding: 170px 50px;
     }
 

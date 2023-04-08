@@ -1,9 +1,12 @@
 #about {
-    background: $cream;
 
     .container {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
+        align-items: center;
+        max-width: 1000px;
+        width: 90%;
+        margin: auto;
         gap: 30px;
         padding: 170px 0px;
     }
@@ -29,6 +32,11 @@
 
         h3 {
             font-size: 1.5em;
+            color: $orange;
+        }
+
+        h1 {
+            font-size: 4em;
             line-height: 1.2em;
             padding: 0.25em 0;
         }
@@ -43,6 +51,7 @@
 
     img {
         width: 50%;
+        max-height: 500px;
         animation: floating 3s infinite alternate linear;
 
         @keyframes floating {
@@ -65,8 +74,8 @@
 
         img {
             max-width: 400px;
-            margin-top: 50px;
             width: 80%;
+            margin: 50px auto;
         }
 
         .list {
